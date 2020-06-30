@@ -35,7 +35,7 @@ header_pages:
   - about.markdown
   - contact.markdown
 
-footer: 'Created in 2020 by <a href="https://wolvesleaf.com">WolvesLeaf</a>, powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/b2a3e8/jekyll-theme-console">jekyll-theme-console</a>'
+footer: 'Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/b2a3e8/jekyll-theme-console">jekyll-theme-console</a>, hosted by <a href="https://pages.github.com/">Github Pages</a>'
 
 # Build settings
 theme: jekyll-theme-console
