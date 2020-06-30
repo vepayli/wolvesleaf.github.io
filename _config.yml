@@ -18,16 +18,22 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Wolvesleaf blog!
+email: l.piotrowski@wolvesleaf.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+   Personal blog about programming and hacking written by geek from Poland.
+   May contain some other stuff about random things as well.
+   Proceed with caution!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
+
+header_pages:
+  - index.markdown
+  - about.markdown
+
+footer: 'Created in 2020 by <a href="https://wolvesleaf.com">WolvesLeaf</a>, powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/b2a3e8/jekyll-theme-console">jekyll-theme-console</a>'
 
 # Build settings
 remote_theme: b2a3e8/jekyll-theme-console
